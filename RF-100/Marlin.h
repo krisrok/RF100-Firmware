@@ -354,6 +354,7 @@ extern float soft_endstop_min[XYZ], soft_endstop_max[XYZ];
 #endif
 
 #if FAN_COUNT > 0
+	extern float fanUserAutoMultiplier;
   extern int16_t fanSpeeds[FAN_COUNT];
   #if ENABLED(PROBING_FANS_OFF)
     extern bool fans_paused;

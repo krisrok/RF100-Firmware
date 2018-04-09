@@ -437,6 +437,7 @@ float soft_endstop_min[XYZ] = { X_MIN_POS, Y_MIN_POS, Z_MIN_POS },
       soft_endstop_max[XYZ] = { X_MAX_POS, Y_MAX_POS, Z_MAX_POS };
 
 #if FAN_COUNT > 0
+	float fanUserAutoMultiplier = 1.0;
   int16_t fanSpeeds[FAN_COUNT] = { 0 };
   #if ENABLED(PROBING_FANS_OFF)
     bool fans_paused = false;

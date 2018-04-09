@@ -739,7 +739,7 @@
 #define Y_MIN_POS 0
 #define Z_MIN_POS 0
 #define X_MAX_POS 105
-#define Y_MAX_POS 135
+#define Y_MAX_POS 112
 #define Z_MAX_POS 100
 
 // If enabled, axes won't move below MIN_POS in response to movement commands.
@@ -1444,7 +1444,7 @@
 // @section extras
 
 // Increase the FAN PWM frequency. Removes the PWM noise but increases heating in the FET/Arduino
-//#define FAST_PWM_FAN
+#define FAST_PWM_FAN
 
 // Use software PWM to drive the fan, as for the heaters. This uses a very low frequency
 // which is not as annoying as with the hardware PWM. On the other hand, if this frequency
